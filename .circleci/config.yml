@@ -21,4 +21,4 @@ jobs:
     steps:
       - checkout
 
-      - run: cd logger && go test -cover
+      - run: cd logger && go build && go test -cover
